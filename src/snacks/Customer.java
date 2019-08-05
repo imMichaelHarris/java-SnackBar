@@ -7,7 +7,7 @@ public class Customer {
     private double cash;
 
     public Customer(String name, double cash){
-        maxId++
+        maxId++;
         id = maxId;
         this.name = name;
         this.cash = cash;

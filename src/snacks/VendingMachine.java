@@ -10,7 +10,7 @@ public class VendingMachine{
     }
 
     public getId(){
-        return id
+        return id;
     }
     public setId(int id){
         this.id = id;

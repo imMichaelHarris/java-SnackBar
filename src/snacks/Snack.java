@@ -22,40 +22,40 @@ public class Snack {
     }
 
     //methods
-    public getId(){
+    public int getId(){
         return id;
     }
-    public getName(){
+    public String getName(){
         return name;
     }
-    public setName(String name){
+    public void setName(String name){
         this.name = name;
     }
-    public getCost(){
+    public double getCost(){
         return cost;
     }
-    public setCost(double cost){
+    public void setCost(double cost){
         this.cost = cost;
     }
-    public getVendingId(){
+    public int getVendingId(){
         return vendingId;
     }
-    public setVendingId(int vendingId){
+    public void setVendingId(int vendingId){
         this.vendingId = vendingId;
     }
-    public getQuanity(){
+    public int getQuanity(){
         return quanity;
     }
-    public addQuanity(int add){
+    public void addQuanity(int add){
         int newQuanity = this.quanity + add;
         this.quanity = newQuanity;
     }
-    public buySnack(int quanity){
+    public void buySnack(int quanity){
         // this.quanity -= quanity;
         int newQuanity = this.quanity - quanity;
         this.quanity = newQuanity;
     }
-    public totalCost(int quanity){
-        return this.cost * quanity;
+    public double totalCost(int quanity){
+        return this.cost * quanity; //should convert int to double maybe idk
     }
 }
