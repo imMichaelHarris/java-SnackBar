@@ -19,4 +19,7 @@ public class Customer {
     public setName(String name){
         this.name = name;
     }
+    public getCash(){
+        return cash;
+    }
 }
