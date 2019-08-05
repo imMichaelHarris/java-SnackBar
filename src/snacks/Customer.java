@@ -13,13 +13,13 @@ public class Customer {
         this.cash = cash;
     }
 
-    public getName(){
+    public String getName(){
         return name;
     }
-    public setName(String name){
+    public void setName(String name){
         this.name = name;
     }
-    public getCash(){
+    public double getCash(){
         return cash;
     }
 }

@@ -9,16 +9,16 @@ public class VendingMachine{
         this.name = name;
     }
 
-    public getId(){
+    public int getId(){
         return id;
     }
-    public setId(int id){
+    public void setId(int id){
         this.id = id;
     }
-    public getName(){
+    public String getName(){
         return name;
     }
-    public setName(String name){
+    public void setName(String name){
         this.name = name;
     }
 }
