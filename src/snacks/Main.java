@@ -14,13 +14,17 @@ public class Main {
 
          //Snacks
          //Food vending machine
-         Snack chips = new Snack("Chips", 36, 1.75, 1);
-         Snack chocolateBar = new Snack("Chocolate Bar", 36, 1.00, 1);
-         Snack pretzel = new Snack("Pretzel", 36, 2.00, 1);
+         Snack chips = new Snack("Chips", 36, 1.75, food.getId());
+         Snack chocolateBar = new Snack("Chocolate Bar", 36, 1.00, food.getId());
+         Snack pretzel = new Snack("Pretzel", 36, 2.00, food.getId());
 
          //Drink vending machine
-         Snack soda = new Snack("Soda", 24, 2.50, 2);
-         Snack water = new Snack("Water", 20, 2.75, 2);
-        System.out.println(jane.getName());
+         Snack soda = new Snack("Soda", 24, 2.50, drink.getId());
+         Snack water = new Snack("Water", 20, 2.75, drink.getId());
+
+
+         //Processing
+
+        System.out.println();
     }
 }
