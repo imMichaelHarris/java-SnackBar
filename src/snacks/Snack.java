@@ -42,4 +42,11 @@ public class Snack {
     public setVendingId(int vendingId){
         this.vendingId = vendingId;
     }
+    public getQuanity(){
+        return quanity;
+    }
+    public addQuanity(int add){
+        int newQuanity = this.quanity + add;
+        this.quanity = newQuanity;
+    }
 }
