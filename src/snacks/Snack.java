@@ -19,4 +19,9 @@ public class Snack {
         this.cost = cost;
         this.vendingId = vendingId;
     }
+
+    //methods
+    public getId(){
+        return id;
+    }
 }
