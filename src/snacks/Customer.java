@@ -8,9 +8,15 @@ public class Customer {
 
     public Customer(String name, double cash){
         maxId++
-
         id = maxId;
         this.name = name;
         this.cash = cash;
+    }
+
+    public getName(){
+        return name;
+    }
+    public setName(String name){
+        this.name = name;
     }
 }
