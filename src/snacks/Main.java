@@ -39,5 +39,17 @@ public class Main {
         //6
         System.out.println(pretzel.addQuanity(12));
         System.out.println(pretzel.getQuanity());
+        //7
+        System.out.println(bob.buySnack(3, pretzel));
+
+        System.out.println("\n" + "*** STRETCH ***");
+        System.out.println(chips);
+        System.out.println(chocolateBar);
+        System.out.println(pretzel);
+        System.out.println(soda);
+        System.out.println(water);
+
+
+
     }
 }

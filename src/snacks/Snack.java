@@ -49,6 +49,9 @@ public class Snack {
     public int addQuanity(int add){
         return this.quanity += add;
     }
+    public int removeQuanity(int quanity){
+        return this.quanity -= quanity;
+    }
     // public void buySnack(int quanity){
     //     // this.quanity -= quanity;
     //     int newQuanity = this.quanity - quanity;
@@ -56,5 +59,14 @@ public class Snack {
     // }
     public double totalCost(int quanity){
         return this.cost * quanity; //should convert int to double maybe idk
+    }
+
+    @Override
+    public String toString()
+    {
+       String rtnStr = "Name " + name + "\n" +
+                        "Quanities: " + getQuanity() + "\n" +
+                        "Total: " + "$" + totalCost(getQuanity());
+       return rtnStr;
     }
 }

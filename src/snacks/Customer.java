@@ -19,8 +19,10 @@ public class Customer {
     public String buySnack(int quanity, Snack snack){
         //having the void type and not returning didn't work here - gave error when compiling
         this.cash -= snack.totalCost(quanity);
+        snack.removeQuanity(quanity);
         return this.name + " buys " + quanity + " " + snack.getName() + "\n" +
-            this.name + " has " + getCash() + " left.";
+            this.name + " has $" + getCash() + " left." + "\n" +
+            "There are " + snack.getQuanity() + " " + snack.getName() + " remaining";
     }
     public String getName(){
         return name;
