@@ -13,6 +13,12 @@ public class Customer {
         this.cash = cash;
     }
 
+    public void addCash(double cash){
+        this.cash + cash;
+    }
+    public void buySnack(int quanity, Snack snack){
+        this.cash - snack.totalCost(quanity);
+    }
     public String getName(){
         return name;
     }
