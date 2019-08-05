@@ -13,8 +13,8 @@ public class Customer {
         this.cash = cash;
     }
 
-    public void addCash(double cash){
-        this.cash += cash;
+    public double addCash(double cash){
+       return this.cash += cash;
     }
     public String buySnack(int quanity, Snack snack){
         //having the void type and not returning didn't work here - gave error when compiling

@@ -25,8 +25,19 @@ public class Main {
 
          //Processing
 
-        System.out.println(jane.getCash());
-        System.out.println(jane.buySnack(3, chips));
-        System.out.println(jane.getCash());
+        //1
+        System.out.println(jane.buySnack(3, soda));
+        //2
+        System.out.println(jane.buySnack(1, pretzel));
+        //3
+        System.out.println(bob.buySnack(2, soda));
+        //4
+        System.out.println(bob.addCash(10.00));
+        System.out.println(bob.getCash() + " left.");
+        //5
+        System.out.println(jane.buySnack(1, chocolateBar));
+        //6
+        System.out.println(pretzel.addQuanity(12));
+        System.out.println(pretzel.getQuanity());
     }
 }

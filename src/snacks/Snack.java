@@ -46,9 +46,8 @@ public class Snack {
     public int getQuanity(){
         return quanity;
     }
-    public void addQuanity(int add){
-        int newQuanity = this.quanity + add;
-        this.quanity = newQuanity;
+    public int addQuanity(int add){
+        return this.quanity += add;
     }
     // public void buySnack(int quanity){
     //     // this.quanity -= quanity;
