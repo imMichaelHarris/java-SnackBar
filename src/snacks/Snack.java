@@ -50,11 +50,11 @@ public class Snack {
         int newQuanity = this.quanity + add;
         this.quanity = newQuanity;
     }
-    public void buySnack(int quanity){
-        // this.quanity -= quanity;
-        int newQuanity = this.quanity - quanity;
-        this.quanity = newQuanity;
-    }
+    // public void buySnack(int quanity){
+    //     // this.quanity -= quanity;
+    //     int newQuanity = this.quanity - quanity;
+    //     this.quanity = newQuanity;
+    // }
     public double totalCost(int quanity){
         return this.cost * quanity; //should convert int to double maybe idk
     }

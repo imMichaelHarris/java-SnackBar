@@ -25,6 +25,8 @@ public class Main {
 
          //Processing
 
-        System.out.println();
+        System.out.println(jane.getCash());
+        System.out.println(jane.buySnack(3, chips));
+        System.out.println(jane.getCash());
     }
 }

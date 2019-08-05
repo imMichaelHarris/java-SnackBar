@@ -14,10 +14,11 @@ public class Customer {
     }
 
     public void addCash(double cash){
-        this.cash + cash;
+        this.cash += cash;
     }
-    public void buySnack(int quanity, Snack snack){
-        this.cash - snack.totalCost(quanity);
+    public double buySnack(int quanity, Snack snack){
+        //having the void type and not returning didn't work here - gave error when compiling
+        return this.cash -= snack.totalCost(quanity);
     }
     public String getName(){
         return name;
