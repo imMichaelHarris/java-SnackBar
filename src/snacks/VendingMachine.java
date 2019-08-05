@@ -1,11 +1,13 @@
 package snacks;
 
 public class VendingMachine{
+    private static int maxid = 0;
     private int id;
     private String name;
 
     public VendingMachine(int id, String name){
-        this.id = id;
+        maxId++
+        id = maxId;
         this.name = name;
     }
 
