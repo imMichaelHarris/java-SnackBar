@@ -30,4 +30,10 @@ public class Snack {
     public setName(String name){
         this.name = name;
     }
+    public getCost(){
+        return cost;
+    }
+    public setCost(double cost){
+        this.cost = cost;
+    }
 }
