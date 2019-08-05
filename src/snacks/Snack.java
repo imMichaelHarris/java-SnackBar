@@ -3,6 +3,7 @@ package snacks;
 public class Snack {
 
     private static int maxid = 0;
+    private int id;
     private String name;
     private int quanity;
     private double cost;
