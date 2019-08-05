@@ -49,4 +49,12 @@ public class Snack {
         int newQuanity = this.quanity + add;
         this.quanity = newQuanity;
     }
+    public buySnack(int quanity){
+        // this.quanity -= quanity;
+        int newQuanity = this.quanity - quanity;
+        this.quanity = newQuanity;
+    }
+    public totalCost(int quanity){
+        return this.cost * quanity;
+    }
 }
