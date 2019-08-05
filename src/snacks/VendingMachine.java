@@ -8,4 +8,11 @@ public class VendingMachine{
         this.id = id;
         this.name = name;
     }
+
+    public getId(){
+        return id
+    }
+    public setId(int id){
+        this.id = id;
+    }
 }
