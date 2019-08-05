@@ -36,4 +36,10 @@ public class Snack {
     public setCost(double cost){
         this.cost = cost;
     }
+    public getVendingId(){
+        return vendingId;
+    }
+    public setVendingId(int vendingId){
+        this.vendingId = vendingId;
+    }
 }
